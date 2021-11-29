@@ -1,0 +1,69 @@
+.column1 , .column2 , .column3  {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 2em;
+
+    color: hsl(0, 0%, 95%);
+
+  }
+  .column1{
+      background-color: hsl(31, 77%, 52%);
+  }
+  .column2{
+      background-color: hsl(184, 100%, 22%);
+  }
+  .column3{
+      background-color: hsl(179, 100%, 13%);
+  }
+  @media screen and (max-width: 600px) {
+    .column1 , .column2, .column3 {
+      width: 100%;
+    }
+  }
+  .sedan, .suvs, .luxury {
+      
+    padding-left: 4em;
+    padding-top: 2em;
+      
+  }
+  p{
+      margin: 4em;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  .button {
+      color: hsl(179, 100%, 13%);
+      background-color: hsl(0, 0%, 95%)
+      
+  }
+  .button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 5em;
+    border-radius: 20px;
+    border: none ;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+   background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  div{
+      
+  }
